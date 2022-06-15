@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="shortcut icon" href="./assets/bola-cristal.svg" type="image/x-icon">
+    <script src="./js/script.js" defer></script>
 
     <title>Previsão do Futuro</title>
   </head>
@@ -25,8 +26,11 @@
         />
         <h1>Vou revelar seu destino!</h1>
         <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
-        <input type="text" placeholder="Digite sua pergunta" />
-        <button>Fazer pergunta</button>
+        <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
+        <button id="perguntar" onclick="fazerPergunta()">Fazer pergunta</button>
+        <h3 id="resposta">
+          Sim!
+        </h3>
       </div>
     </main>
   </body>

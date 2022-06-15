@@ -1,8 +1,10 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
+html {
   height: 100vh;
 }
 
@@ -18,21 +20,20 @@ body {
 }
 
 main {
-  margin: 5vh auto;
-  width: 80%;
+  margin: 2vh auto;
   max-width: 400px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 
-background: linear-gradient(
-  to bottom right,
-  rgb(134, 60, 219, 0.2),
-  rgb(139, 17, 88, 0.2)
-);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(36, 35, 35, 0.1);
-backdrop-filter: blur(9.2px);
--webkit-backdrop-filter: blur(9.2px);
-border: 1px solid rgba(134, 60, 219, 0.13);
+  background: linear-gradient(
+    to bottom right,
+    rgb(134, 60, 219, 0.2),
+    rgb(139, 17, 88, 0.2)
+  );
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(36, 35, 35, 0.1);
+  backdrop-filter: blur(9.2px);
+  -webkit-backdrop-filter: blur(9.2px);
+  border: 1px solid rgba(134, 60, 219, 0.13);
 }
 
 .container {
@@ -47,13 +48,13 @@ img {
 }
 
 h1 {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 10px;
   opacity: 0.9;
 }
 
 p {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   opacity: 0.7;
 }
 
@@ -61,13 +62,13 @@ input,
 button {
   display: block;
   width: 100%;
-  padding: 20px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 18px;
   border-radius: 5px;
 }
 
 input {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   box-sizing: border-box;
 }
 
@@ -81,4 +82,21 @@ button {
 button:hover {
   filter: brightness(1.1);
   cursor: pointer;
+}
+
+button:disabled{
+  opacity: 0.8;
+  transition: opacity 1s;
+}
+
+#resposta {
+  margin-top: 30px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
 }
