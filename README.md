@@ -6,7 +6,7 @@
   <h3 align="center">Previsão do Futuro</h3>
 
   <p align="center">
-    Esse projeto foi criado através dos estudos na maratona explorer na Rocketseat
+    Esse projeto foi criado através dos estudos na maratona explorer na Rocketseat, com o intuito de construir uma aplicação que pudesse prever o futuro através de perguntas realizadas pelo usuário.
        <br />
     <br />
     <a href="https://nicolycunha.github.io/future-prediction">Projeto</a>
