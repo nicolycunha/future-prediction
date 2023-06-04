@@ -9,7 +9,7 @@
     Esse projeto foi criado através dos estudos na maratona explorer na Rocketseat
        <br />
     <br />
-    <a href="https://nicolycunha.github.io/maratona-explorer">Projeto</a>
+    <a href="https://nicolycunha.github.io/future-prediction">Projeto</a>
     ·
     <a href="https://www.linkedin.com/in/nicoly-oliveira-da-cunha/">Contato</a>
   </p>
